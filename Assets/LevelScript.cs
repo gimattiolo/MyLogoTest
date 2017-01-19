@@ -1,0 +1,20 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class LevelScript : MonoBehaviour {
+
+	// Use this for initialization
+	void Start () {
+        if(movTexture != null)
+        {
+            movTexture.Play();
+        }
+    }
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+
+    public MovieTexture movTexture;
+}
